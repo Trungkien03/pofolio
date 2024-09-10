@@ -1,0 +1,91 @@
+/* Đặt lại các giá trị mặc định */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+
+  justify-content: space-between !important;
+  align-items: center;
+  padding: 10px 0px;
+  width: 100%;
+  background-color: var(--background-color);
+  position: sticky;
+  top: 0;
+
+  z-index: 1000;
+}
+
+.navbar-logo h2 {
+  color: #fff;
+  margin-left: 20px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  margin-right: 20px;
+}
+
+.navbar-links li {
+  margin: 0 15px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #f4e04d;
+}
+
+/* Mobile menu toggle button */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .navbar-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s ease-in-out;
+    border-radius: 10%;
+  }
+
+  .navbar-links.open {
+    height: 200px;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+}
