@@ -10,7 +10,6 @@
   align-items: center;
   padding: 10px 10px;
   width: 100%;
-  background-color: var(--background-color);
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -25,7 +24,7 @@
 }
 
 .navbar-logo h2 {
-  color: #fff;
+  color: var(--text-color);
   margin-left: 20px;
 }
 
@@ -61,7 +60,7 @@
   width: 25px;
   height: 3px;
   margin: 5px auto;
-  background-color: #fff;
+  background-color: var(--text-color);
   transition: all 0.3s ease;
 }
 
@@ -72,7 +71,7 @@
     top: 45px;
     left: 0;
     width: 100%;
-    background-color: #333;
+    background-color: var(--background-color);
     flex-direction: column;
     align-items: center;
     justify-content: center;

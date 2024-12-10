@@ -25,16 +25,24 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#hero">About</a>
+          <a href="#hero">
+            <p>About</p>
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects">
+            <p>Projects</p>
+          </a>
         </li>
         <li>
-          <a href="#services">Resume</a>
+          <a href="#services">
+            <p>Resume</p>
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">
+            <p>Contact</p>
+          </a>
         </li>
         <li>
           <img
