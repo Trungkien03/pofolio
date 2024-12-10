@@ -2,13 +2,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 20px;
   text-align: center;
-  height: 50dvh;
-  min-height: 500px;
 
   .hero {
-    border-radius: 50%;
     object-fit: cover;
   }
 
@@ -58,52 +54,45 @@
   position: relative;
 }
 
-.colorMode {
-  position: absolute;
-  right: 0;
-  width: 25px;
-}
-
-.colorMode:hover {
-  cursor: pointer;
-}
-
 .description {
-  max-width: 30ch;
+  max-width: 60ch;
 }
 
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
+  gap: 25px;
 }
 
 @media (min-width: 800px) {
   .container {
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .colorModeContainer {
+    position: relative;
+    top: -100px;
   }
 
   .hero {
-    width: 350px;
-    height: 350px;
-    max-width: 350px;
-    border-radius: 50%;
+    width: 550px;
+    height: 450px;
     object-fit: cover;
+    object-position: center top;
   }
 }
 
 @media (max-width: 799px) {
+  .container {
+    position: relative;
+    top: -100px;
+  }
+
   .hero {
-    width: 250px;
-    height: 250px; /* Ensure height matches width for circle */
-    max-width: 250px;
-    max-height: 250px;
-    border-radius: 50%; /* Keep the image circular */
-    object-fit: cover; /* Maintain the aspect ratio within the circle */
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: center top;
   }
 }
 
@@ -116,12 +105,10 @@
 @media (min-width: 1400px) {
   .container {
     .hero {
-      width: 400px;
-      height: 400px; /* Ensure the image remains circular */
-      max-width: 400px;
-      max-height: 400px;
-      border-radius: 50%; /* Keep the image circular */
-      object-fit: cover; /* Ensure the image fits properly inside the circle */
+      width: 680px;
+      height: 550px;
+      object-fit: cover;
+      object-position: center top;
     }
   }
 }

@@ -1,5 +1,8 @@
 import { useState } from "react";
 import "./Navbar.css";
+import sun from "../../assets/sun.svg";
+import moon from "../../assets/moon.svg";
+import { useTheme } from "../../common/ThemeContext";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -7,6 +10,8 @@ const Navbar = () => {
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
+  const { theme, toggleTheme } = useTheme();
+  const themeIcon = theme === "light" ? sun : moon;
 
   return (
     <nav className="navbar">
@@ -20,16 +25,24 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#home">About</a>
+          <a href="#hero">About</a>
         </li>
         <li>
-          <a href="#about">Projects</a>
+          <a href="#projects">Projects</a>
         </li>
         <li>
           <a href="#services">Resume</a>
         </li>
         <li>
           <a href="#contact">Contact</a>
+        </li>
+        <li>
+          <img
+            className="colorMode"
+            src={themeIcon}
+            alt="Color mode icon"
+            onClick={toggleTheme}
+          />
         </li>
       </ul>
     </nav>

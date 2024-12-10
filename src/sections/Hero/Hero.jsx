@@ -1,7 +1,6 @@
 import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/profile_img.jpg";
-import sun from "../../assets/sun.svg";
-import moon from "../../assets/moon.svg";
+
 import twitterLight from "../../assets/twitter-light.svg";
 import twitterDark from "../../assets/twitter-dark.svg";
 import githubLight from "../../assets/github-light.svg";
@@ -12,34 +11,23 @@ import CV from "../../assets/cv.pdf";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
-  const { theme, toggleTheme } = useTheme();
+  const { theme } = useTheme();
 
-  const themeIcon = theme === "light" ? sun : moon;
   const twitterIcon = theme === "light" ? twitterLight : twitterDark;
   const githubIcon = theme === "light" ? githubLight : githubDark;
   const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
-    <section id="hero" className={styles.container}>
-      <div className={styles.colorModeContainer}>
+    <section className={styles.container}>
+      <div id="hero" className={styles.colorModeContainer}>
         <img
           src={heroImg}
           className={styles.hero}
           alt="Profile picture of Harris Johnsen"
         />
-        <img
-          className={styles.colorMode}
-          src={themeIcon}
-          alt="Color mode icon"
-          onClick={toggleTheme}
-        />
       </div>
       <div className={styles.info}>
-        <h1>
-          Nguyen
-          <br />
-          Trung Kien
-        </h1>
+        <h1>Nguyen Trung Kien</h1>
         <h2>Frontend Developer - Mobile Developer</h2>
         <h2>Software Engineer</h2>
         <span>

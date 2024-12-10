@@ -1,4 +1,3 @@
-/* Đặt lại các giá trị mặc định */
 * {
   margin: 0;
   padding: 0;
@@ -7,16 +6,22 @@
 
 .navbar {
   display: flex;
-
   justify-content: space-between !important;
   align-items: center;
-  padding: 10px 0px;
+  padding: 10px 10px;
   width: 100%;
   background-color: var(--background-color);
   position: sticky;
   top: 0;
-
   z-index: 1000;
+}
+
+.colorMode {
+  width: 25px;
+}
+
+.colorMode:hover {
+  cursor: pointer;
 }
 
 .navbar-logo h2 {
@@ -64,7 +69,7 @@
 @media (max-width: 768px) {
   .navbar-links {
     position: absolute;
-    top: 60px;
+    top: 45px;
     left: 0;
     width: 100%;
     background-color: #333;
@@ -74,11 +79,10 @@
     height: 0;
     overflow: hidden;
     transition: height 0.3s ease-in-out;
-    border-radius: 10%;
   }
 
   .navbar-links.open {
-    height: 200px;
+    height: 250px;
   }
 
   .navbar-links li {

@@ -29,24 +29,11 @@
   gap: 30px;
 }
 
-.project-card-wrapper {
-  position: relative;
-  width: fit-content;
-}
-
 @media (width >= 800px) {
   .projectsContainer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
     padding: 0 30px;
-  }
-
-  .projectsContainer {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr); /* Ensures 5 items per row */
-    gap: 40px;
-    justify-items: center;
-    align-items: start;
   }
 }
