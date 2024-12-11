@@ -13,6 +13,18 @@ const Navbar = () => {
   const { theme, toggleTheme } = useTheme();
   const themeIcon = theme === "light" ? sun : moon;
 
+  // Lấy element navbar
+  const navbar = document.querySelector(".navbar");
+
+  // Thêm hoặc gỡ bỏ class khi cuộn
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 50) {
+      navbar.classList.add("scrolled"); // Thêm nền khi cuộn xuống
+    } else {
+      navbar.classList.remove("scrolled"); // Làm trong suốt khi ở đầu trang
+    }
+  });
+
   return (
     <nav className="navbar">
       <div className="navbar-logo">

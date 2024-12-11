@@ -13,6 +13,15 @@
   position: sticky;
   top: 0;
   z-index: 1000;
+  background: transparent; /* Làm nền trong suốt */
+  backdrop-filter: blur(10px); /* Làm mờ nền phía sau */
+  transition: 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+/* Khi cuộn xuống, navbar sẽ có nền */
+.navbar.scrolled {
+  background: var(--background-color); /* Màu nền đen với độ trong suốt */
+  backdrop-filter: blur(0); /* Loại bỏ hiệu ứng làm mờ */
 }
 
 .colorMode {

@@ -1,9 +1,9 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import React from "react";
-import styles from "./AwardCard.module.css";
+import styles from "./CertificatesCard.module.css";
 
-function AwardCard({ date, title, imageUrl }) {
+function CertificatesCard({ date, title, imageUrl }) {
   return (
     <div className={styles.card}>
       <div className={styles.cardImageContainer}>
@@ -20,4 +20,4 @@ function AwardCard({ date, title, imageUrl }) {
   );
 }
 
-export default AwardCard;
+export default CertificatesCard;
