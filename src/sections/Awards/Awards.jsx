@@ -1,14 +1,14 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import styles from "./AwardsStyles.module.css";
-import rocketBoost from "../../assets/rocket-boost.jpg";
-import summer2024 from "../../assets/summer-2024.jpg";
-import learningService from "../../assets/learning-service.jpg";
+import exellent2022 from "../../assets/excellent-student-2022.jpg";
 import exellent from "../../assets/excellent-student.jpg";
 import honorable from "../../assets/honorable-student.jpg";
+import learningService from "../../assets/learning-service.jpg";
+import rocketBoost from "../../assets/rocket-boost.jpg";
+import summer2024 from "../../assets/summer-2024.jpg";
 import AwardCard from "../../common/AwardCard/AwardCard";
+import styles from "./AwardsStyles.module.css";
 
-// Danh sách giải thưởng
 const awards = [
   {
     date: "November 08, 2024",
@@ -34,6 +34,11 @@ const awards = [
     date: "2023 - FALL",
     title: "Excellent Student Achievement Awards",
     imageUrl: exellent,
+  },
+  {
+    date: "2022 - FALL",
+    title: "Excellent Student Achievement Awards",
+    imageUrl: exellent2022,
   },
 ];
 

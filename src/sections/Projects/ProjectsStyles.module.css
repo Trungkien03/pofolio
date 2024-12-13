@@ -8,6 +8,7 @@
     align-self: center;
     background-color: var(--project-card-bg);
     border-radius: 20px;
+    box-shadow: 2px 2px 5px #888888;
   }
 
   a {

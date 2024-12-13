@@ -3,6 +3,7 @@ import "./Navbar.css";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import { useTheme } from "../../common/ThemeContext";
+import CV from "../../assets/cv.pdf";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -47,7 +48,7 @@ const Navbar = () => {
           </a>
         </li>
         <li>
-          <a href="#services">
+          <a href={CV} download>
             <p>Resume</p>
           </a>
         </li>

@@ -27,10 +27,14 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  padding: 1rem; /* p-4 */
-  background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0) 50%);
-  border-bottom-left-radius: 0.5rem; /* rounded-b-lg */
-  border-bottom-right-radius: 0.5rem; /* rounded-b-lg */
+  padding: 1rem;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0) 100%
+  );
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
 }
 
 .cardText {
