@@ -1,7 +1,8 @@
 import "./App.css";
+import Activities from "./sections/Activities/Activities";
 import Awards from "./sections/Awards/Awards";
 import Certificates from "./sections/Certificates/Certificates";
-import Contact from "./sections/Contact/Contact";
+import Experiences from "./sections/Experiences/Experiences";
 import Footer from "./sections/Footer/Footer";
 import Hero from "./sections/Hero/Hero";
 import Navbar from "./sections/Navbar/Navbar";
@@ -13,11 +14,12 @@ function App() {
     <>
       <Navbar />
       <Hero />
-      <Projects />
       <Awards />
+      <Projects />
+      <Experiences />
       <Certificates />
+      <Activities />
       <Skills />
-      <Contact />
       <Footer />
     </>
   );

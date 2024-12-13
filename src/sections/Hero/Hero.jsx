@@ -2,12 +2,12 @@ import heroImg from "../../assets/profile_img.jpg";
 import styles from "./HeroStyles.module.css";
 
 import CV from "../../assets/cv.pdf";
-import facebookDark from "../../assets/facebook-dark.svg";
-import facebookLight from "../../assets/facebook-light.svg";
-import githubDark from "../../assets/github-dark.svg";
-import githubLight from "../../assets/github-light.svg";
-import linkedinDark from "../../assets/linkedin-dark.svg";
-import linkedinLight from "../../assets/linkedin-light.svg";
+import facebookDark from "../../assets/svg/facebook-dark.svg";
+import facebookLight from "../../assets/svg/facebook-light.svg";
+import githubDark from "../../assets/svg/github-dark.svg";
+import githubLight from "../../assets/svg/github-light.svg";
+import linkedinDark from "../../assets/svg/linkedin-dark.svg";
+import linkedinLight from "../../assets/svg/linkedin-light.svg";
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
