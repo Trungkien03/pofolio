@@ -1,4 +1,9 @@
+import java from "../../assets/java.png";
+import mongodb from "../../assets/mongodb.png";
+import mysql from "../../assets/mysql.png";
 import reactHookForm from "../../assets/react-hook-form.png";
+import sql from "../../assets/sql.png";
+import sqlserver from "../../assets/sqlserver.png";
 import checkmarkDark from "../../assets/svg/checkmark-dark.svg";
 import checkmarkLight from "../../assets/svg/checkmark-light.svg";
 import css from "../../assets/svg/css.svg";
@@ -34,7 +39,8 @@ function Skills() {
       <div className={styles.skillList}>
         <SkillList src={typescript} skill="TypeScript" />
         <SkillList src={swift} skill="Swift" />
-        <SkillList src={swift} skill="Java" />
+        <SkillList src={java} skill="Java" />
+        <SkillList src={sql} skill="SQL" />
         <SkillList src={html} skill="HTML" />
         <SkillList src={css} skill="CSS" />
       </div>
@@ -62,6 +68,13 @@ function Skills() {
         <SkillList src={checkmark} skill="Monolithic Architecture" />
         <SkillList src={checkmark} skill="Singleton Pattern" />
         <SkillList src={checkmark} skill="Atom Design" />
+      </div>
+      <hr />
+      <h3>Database</h3>
+      <div className={styles.skillList}>
+        <SkillList src={sqlserver} skill="SQL Server" />
+        <SkillList src={mysql} skill="MySQL" />
+        <SkillList src={mongodb} skill="MongoDB" />
       </div>
       <hr />
       <h3>Others</h3>

@@ -73,18 +73,24 @@ const projectsData = [
     src: lengthUnitConverter,
     link: "https://github.com/Trungkien03/Length-Unit-",
     title: "Unit Converter",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FBlue%20Modern%20Mobile%20Application%20Presentation.jpg?alt=media&token=4ecc8b24-1e77-4b66-a9de-ccfa4c5f436e",
     description: "Length Unit Converter Mobile App",
   },
   {
     src: vHomeClean,
     link: "https://github.com/Trungkien03/V-HomeClean",
     title: "Cleaning Services",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fv-home-clean.jpg?alt=media&token=3e9bdc87-8b26-47e8-9d86-2fe9f4560973",
     description: "Cleaning Services Website for Vinhomes Grand Park",
   },
   {
     src: clothShop,
     link: "https://github.com/Trungkien03/ShopingProject",
     title: "Clothing Store",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fclothing-store.jpg?alt=media&token=5f286c32-f4d2-43a3-8c56-0e86121ccd62",
     description: "Cloth Store Website",
   },
 ];

@@ -7,7 +7,18 @@ const WorkExperiences = () => {
   return (
     <>
       <Navbar />
-      <div>WorkExperiences</div>
+      <div className="container">
+        <div className="header">
+          <h1>
+            Insights on Web and Mobile Development, Emerging Technologies, and
+            Tech Innovations.
+          </h1>
+          <p>
+            Articles, essays, and reflections on creative application
+            development and the ever-evolving world of technology.
+          </p>
+        </div>
+      </div>
       <Footer />
     </>
   );
