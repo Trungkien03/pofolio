@@ -30,6 +30,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
+        <img src="/hero-img.png" alt="hero" className="image" />
         <h2>Nguyễn Trung Kiên</h2>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>

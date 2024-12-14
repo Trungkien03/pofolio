@@ -37,6 +37,17 @@
   margin-left: 20px;
 }
 
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.image {
+  width: 40px;
+  height: 40px;
+}
+
 .navbar-links {
   display: flex;
   list-style: none;
