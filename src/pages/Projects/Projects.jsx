@@ -33,24 +33,32 @@ const projectsData = [
     src: unicourse,
     link: "https://unicourse.id.vn",
     title: "Unicourse (Website)",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-14%20at%2020.58.31.png?alt=media&token=5dd9ba39-0368-436f-98e6-0ae0a3c94b1c",
     description: "E-Learning Platform Website",
   },
   {
     src: lambda,
     link: "https://github.com/Trungkien03/Lambda",
     title: "Lambda",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flambda.jpg?alt=media&token=ca23c00e-afb3-4a15-a873-1330b8e845af",
     description: "Yoga Class Booking Mobile App",
   },
   {
     src: lambdaAdmin,
     link: "https://github.com/Trungkien03/Lambda-Admin",
     title: "Lambda Admin",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flambda-admin.jpg?alt=media&token=570174cb-f44d-451d-87cc-36fad8984741",
     description: "Yoga Class Management Mobile App",
   },
   {
     src: whalehome,
     link: "https://github.com/VinHomeRentApp",
     title: "Whale Home",
+    bgImg:
+      "https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fonboard.png?alt=media&token=2940ef95-ccd9-4255-8a46-2a679950e380",
     description: "Rental Mobile App for Vinhomes",
   },
   {
