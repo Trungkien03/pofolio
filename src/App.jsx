@@ -1,13 +1,12 @@
-import "./App.css";
-import Activities from "./sections/Activities/Activities";
-import Awards from "./sections/Awards/Awards";
-import Certificates from "./sections/Certificates/Certificates";
-import Experiences from "./sections/Experiences/Experiences";
-import Footer from "./sections/Footer/Footer";
+import Navbar from "./common/Navbar/Navbar";
 import Hero from "./sections/Hero/Hero";
-import Navbar from "./sections/Navbar/Navbar";
+import Awards from "./sections/Awards/Awards";
 import Projects from "./sections/Projects/Projects";
+import Experiences from "./sections/Experiences/Experiences";
+import Certificates from "./sections/Certificates/Certificates";
+import Activities from "./sections/Activities/Activities";
 import Skills from "./sections/Skills/Skills";
+import Footer from "./sections/Footer/Footer";
 
 function App() {
   return (

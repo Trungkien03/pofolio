@@ -1,5 +1,8 @@
 import reactHookForm from "../../assets/react-hook-form.png";
+import checkmarkDark from "../../assets/svg/checkmark-dark.svg";
+import checkmarkLight from "../../assets/svg/checkmark-light.svg";
 import css from "../../assets/svg/css.svg";
+import docker from "../../assets/svg/docker.svg";
 import gitDark from "../../assets/svg/git-dark.svg";
 import gitLight from "../../assets/svg/git-light.svg";
 import html from "../../assets/svg/html.svg";
@@ -15,12 +18,8 @@ import tailwindcss from "../../assets/svg/tailwindcss.svg";
 import typescript from "../../assets/svg/typescript.svg";
 import webpack from "../../assets/svg/webpack.svg";
 import SkillList from "../../common/SkillList";
-import styles from "./SkillsStyles.module.css";
-import checkmarkDark from "../../assets/svg/checkmark-dark.svg";
-import checkmarkLight from "../../assets/svg/checkmark-light.svg";
-import docker from "../../assets/svg/docker.svg";
-
 import { useTheme } from "../../common/ThemeContext";
+import styles from "./SkillsStyles.module.css";
 
 function Skills() {
   const { theme } = useTheme();

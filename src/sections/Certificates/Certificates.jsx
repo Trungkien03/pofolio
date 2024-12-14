@@ -1,8 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import CertificatesCard from "../../common/CertificatesCard/CertificatesCard";
-import certificates from "./certificates";
 import styles from "./CertificatesStyles.module.css";
+import certificates from "./certificates-data";
+import CertificatesCard from "../../common/CertificatesCard/CertificatesCard";
 
 function Certificates() {
   return (

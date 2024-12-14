@@ -2,8 +2,9 @@ import { useState } from "react";
 import "./Navbar.css";
 import sun from "../../assets/svg/sun.svg";
 import moon from "../../assets/svg/moon.svg";
-import { useTheme } from "../../common/ThemeContext";
+import { useTheme } from "../ThemeContext";
 import CV from "../../assets/cv.pdf";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,23 +39,30 @@ const Navbar = () => {
       </div>
       <ul className={`navbar-links ${isOpen ? "open" : ""}`}>
         <li>
-          <a href="#hero">
-            <p>About</p>
-          </a>
+          <Link to="/">
+            <h4>About</h4>
+          </Link>
         </li>
         <li>
-          <a href="#projects">
-            <p>Projects</p>
+          <Link to="/projects">
+            <h4>Projects</h4>
+          </Link>
+        </li>
+
+        <li>
+          <Link to="/work">
+            <h4>Work</h4>
+          </Link>
+        </li>
+
+        <li>
+          <a href="#contact">
+            <h4>Contact</h4>
           </a>
         </li>
         <li>
           <a href={CV} download>
-            <p>Resume</p>
-          </a>
-        </li>
-        <li>
-          <a href="#contact">
-            <p>Contact</p>
+            <h4>Resume</h4>
           </a>
         </li>
         <li>

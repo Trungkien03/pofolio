@@ -1,4 +1,3 @@
-import { useTheme } from "../../common/ThemeContext";
 import styles from "./FooterStyles.module.css";
 import facebookDark from "../../assets/svg/facebook-dark.svg";
 import facebookLight from "../../assets/svg/facebook-light.svg";
@@ -10,6 +9,7 @@ import hackerrankDark from "../../assets/svg/hackerrank-dark.svg";
 import hackerrankLight from "../../assets/svg/hackerrank-light.svg";
 import leetcodeDark from "../../assets/svg/leetcode-dark.svg";
 import leetcodeLight from "../../assets/svg/leetcode-light.svg";
+import { useTheme } from "../../common/ThemeContext";
 
 function Footer() {
   const { theme } = useTheme();
