@@ -1,6 +1,7 @@
 import reactHookForm from "../../assets/react-hook-form.png";
 import css from "../../assets/svg/css.svg";
-import git from "../../assets/svg/git.svg";
+import gitDark from "../../assets/svg/git-dark.svg";
+import gitLight from "../../assets/svg/git-light.svg";
 import html from "../../assets/svg/html.svg";
 import jest from "../../assets/svg/jest.svg";
 import nodejs from "../../assets/svg/nodejs.svg";
@@ -15,15 +16,17 @@ import typescript from "../../assets/svg/typescript.svg";
 import webpack from "../../assets/svg/webpack.svg";
 import SkillList from "../../common/SkillList";
 import styles from "./SkillsStyles.module.css";
-
 import checkmarkDark from "../../assets/svg/checkmark-dark.svg";
 import checkmarkLight from "../../assets/svg/checkmark-light.svg";
+import docker from "../../assets/svg/docker.svg";
+
 import { useTheme } from "../../common/ThemeContext";
 
 function Skills() {
   const { theme } = useTheme();
 
   const checkmark = theme === "light" ? checkmarkLight : checkmarkDark;
+  const gitIcon = theme === "light" ? gitLight : gitDark;
 
   return (
     <section id="skills" className={styles.container}>
@@ -65,8 +68,8 @@ function Skills() {
       <h3>Others</h3>
       <div className={styles.skillList}>
         <SkillList src={webpack} skill="Webpack" />
-        <SkillList src={git} skill="Git" />
-        <SkillList src={git} skill="Docker" />
+        <SkillList src={gitIcon} skill="Git" />
+        <SkillList src={docker} skill="Docker" />
       </div>
     </section>
   );

@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <nav className="navbar">
       <div className="navbar-logo">
-        <h2>Pofolio</h2>
+        <h2>Nguyễn Trung Kiên</h2>
       </div>
       <div className="navbar-toggle" onClick={toggleMenu}>
         <span className="bar"></span>
