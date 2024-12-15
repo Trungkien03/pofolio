@@ -38,6 +38,15 @@
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
+.work-experiences {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-left: 2px solid #4a4d4c;
+  padding-left: 1rem;
+  width: 80%;
+}
+
 @media screen and (max-width: 768px) {
   .list {
     width: 90%;

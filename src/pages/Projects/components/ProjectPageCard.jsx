@@ -3,7 +3,14 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 
-const ProjectPageCard = ({ bgImg, src, link, title, description }) => {
+const ProjectPageCard = ({
+  bgImg,
+  src,
+  link,
+  title,
+  description,
+  imageTechStack,
+}) => {
   return (
     <div className={styles.card}>
       <div className={styles.cardHeader}>
@@ -11,8 +18,22 @@ const ProjectPageCard = ({ bgImg, src, link, title, description }) => {
       </div>
       <img className={styles.image} src={src} alt={`${title} logo`} />
 
-      <h2 className={styles.title}>{title}</h2>
-      <p className={styles.description}>{description}</p>
+      <div className={styles.info}>
+        <h2 className={styles.title}>{title}</h2>
+        <p className={styles.description}>{description}</p>
+
+        <div className={styles.techstack}>
+          <h2 className={styles.title}>Tech Stacks</h2>
+          {imageTechStack.map((item, index) => (
+            <img
+              key={index}
+              src={item}
+              className={styles.icontechstack}
+              alt={`${title} logo`}
+            />
+          ))}
+        </div>
+      </div>
 
       <div className={styles.actions}>
         <a

@@ -52,7 +52,7 @@ const Navbar = () => {
 
         <li>
           <Link to="/work">
-            <h4>Work</h4>
+            <h4>Experiences</h4>
           </Link>
         </li>
 

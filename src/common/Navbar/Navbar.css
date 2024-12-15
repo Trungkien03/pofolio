@@ -87,7 +87,7 @@
 @media (max-width: 768px) {
   .navbar-links {
     position: absolute;
-    top: 45px;
+    top: 55px;
     left: 0;
     width: 100%;
     background-color: var(--background-color);
