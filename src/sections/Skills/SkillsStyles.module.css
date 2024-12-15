@@ -47,3 +47,18 @@ hr {
     width: 300px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .skillList {
+    max-width: fit-content;
+    gap: 20px;
+
+    p {
+      font-size: 16px;
+    }
+  }
+
+  hr {
+    width: 300px;
+  }
+}

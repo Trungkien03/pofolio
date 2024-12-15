@@ -61,7 +61,6 @@
 .navbar-links a {
   color: white;
   text-decoration: none;
-  font-size: 18px;
   transition: color 0.3s ease;
 }
 
@@ -110,5 +109,16 @@
 
   .navbar-toggle {
     display: block;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .image {
+    width: 30px;
+    height: 30px;
+  }
+
+  .colorMode {
+    width: 18px;
   }
 }

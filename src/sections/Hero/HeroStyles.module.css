@@ -116,3 +116,29 @@
     }
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+
+    .hero {
+      width: 550px;
+      height: 450px;
+      object-fit: cover;
+      object-position: center top;
+    }
+  }
+
+  .description {
+    text-align: center;
+    padding: 0 20px;
+    max-width: 65ch;
+  }
+
+  button {
+    width: 120px;
+    height: 45px;
+    font-size: 14px;
+  }
+}

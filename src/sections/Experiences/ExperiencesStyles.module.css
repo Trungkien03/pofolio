@@ -30,3 +30,11 @@
     padding: 0 30px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projectsContainer {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

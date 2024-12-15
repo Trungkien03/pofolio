@@ -37,15 +37,18 @@
 
 @media (width >= 800px) {
   .projectsContainer {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    padding: 0 30px;
-  }
-
-  .projectsContainer {
     display: grid;
     grid-template-columns: repeat(5, 1fr); /* Ensures 5 items per row */
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .projectsContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Ensures 5 items per row */
     gap: 40px;
     justify-items: center;
     align-items: start;
