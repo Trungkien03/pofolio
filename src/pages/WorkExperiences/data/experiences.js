@@ -6,7 +6,7 @@ import freelance1 from "../../../assets/showcase-2024.jpg";
 const experiences = [
   {
     date: "April 2024 - Present",
-    title: "Freelance Software Developer",
+    title: "Co-Founder & Mobile Developer At Unicourse",
     description:
       "Developed a Yoga App for both admin and customer use, including features for class management, bookings, and user engagement. Created a mobile chess game with real-time gameplay and an interactive UI. Built an E-learning platform with features for course content, user progress tracking, and interactive learning.",
     images: [freelance, freelance1],
