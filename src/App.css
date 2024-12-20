@@ -9,6 +9,7 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
+  --background-color-card: #fff;
 }
 
 [data-theme="dark"] {
@@ -19,6 +20,7 @@
   --text-color: #fff;
   --form-text-color: #fff;
   --footer-text-color: #bbb;
+  --background-color-card: #1e1e1e;
 }
 
 body {

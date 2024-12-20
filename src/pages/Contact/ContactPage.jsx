@@ -3,7 +3,6 @@ import React from "react";
 
 import Navbar from "../../common/Navbar/Navbar";
 import Footer from "../../sections/Footer/Footer";
-import "./Contact.css";
 import Contact from "../../sections/Contact/Contact";
 
 const ContactPage = () => {
