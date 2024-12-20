@@ -4,8 +4,15 @@ import CertificatesCard from "../../common/CertificatesCard/CertificatesCard";
 import styles from "./ActivitiesStyles.module.css";
 import showcase2024 from "../../assets/showcase-2024.jpg";
 import rocketBoostActivity from "../../assets/rocket-boost-activities.jpg";
+import capstoneProjectImage from "../../assets/capstone.jpg";
 
 const ActivitiesData = [
+  {
+    date: "December 20, 2024",
+    title:
+      "Unicourse recognized as a successful Capstone Project at FPT University",
+    imageUrl: capstoneProjectImage,
+  },
   {
     date: "November 15, 2024",
     title: "Unicourse showcase Mobile App and Website at Convocation Day 2024",

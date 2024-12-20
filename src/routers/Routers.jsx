@@ -7,10 +7,11 @@ import {
   Routes,
 } from "react-router-dom";
 import App from "../App";
+import "../App.css";
+import ContactPage from "../pages/Contact/ContactPage";
 import NotFound from "../pages/Notfound/NotFound";
 import Projects from "../pages/Projects/Projects";
 import WorkExperiences from "../pages/WorkExperiences/WorkExperiences";
-import "../App.css";
 
 const Routers = () => {
   return (
@@ -19,6 +20,7 @@ const Routers = () => {
         <Route path="/" element={<App />} />
         <Route path="/projects" element={<Projects />} />
         <Route path="/work" element={<WorkExperiences />} />
+        <Route path="/contact" element={<ContactPage />} />
         <Route path="*" element={<Navigate to="/404" />} />
         <Route path="/404" element={<NotFound />} />
       </Routes>

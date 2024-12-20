@@ -26,7 +26,7 @@ const ExperiencesData = [
 
 function Experiences() {
   return (
-    <section id="certificates" className={styles.container}>
+    <section className={styles.container}>
       <h1 className="sectionTitle">Experiences</h1>
       <div className={styles.projectsContainer}>
         {ExperiencesData.map((cert, index) => (
