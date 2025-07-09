@@ -1,29 +1,44 @@
-# Logs
-logs
+# dependencies
+node_modules
+
+# next.js build output
+.next
+out
+
+# production
+build
+
+# misc
+.DS_Store
+*.pem
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# local env files
+.env
+.env.*
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# vercel
+.vercel
 
+# typescript
+*.tsbuildinfo
 
+# coverage
+coverage
+
+# lock files
+bun.lock
 package-lock.json
-
 yarn.lock
+pnpm-lock.yaml
+
+# vscode
+.vscode/
+
+# others
+.idea/
+*.swp
