@@ -26,6 +26,7 @@ interface Props {
     href: string;
   }[];
   className?: string;
+  isCertificate?: boolean;
 }
 
 export function ProjectCard({
@@ -39,11 +40,12 @@ export function ProjectCard({
   video,
   links,
   className,
+  isCertificate = false,
 }: Props) {
   return (
     <Card
       className={
-        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full"
+        "flex flex-col overflow-hidden border hover:shadow-lg transition-all duration-300 ease-out h-full p-2"
       }
     >
       <Link
@@ -61,13 +63,20 @@ export function ProjectCard({
           />
         )}
         {image && (
-          <Image
-            src={image}
-            alt={title}
-            width={500}
-            height={300}
-            className="h-40 w-full overflow-hidden object-cover object-top"
-          />
+          <div className="flex justify-center items-center py-4">
+            <Image
+              src={image}
+              alt={title}
+              width={isCertificate ? 500 : 140}
+              height={isCertificate ? 300 : 140}
+              className={cn(
+                "object-contain",
+                isCertificate
+                  ? "h-40 w-full overflow-hidden object-cover object-top"
+                  : "max-h-32 max-w-32"
+              )}
+            />
+          </div>
         )}
       </Link>
       <CardHeader className="px-2">
