@@ -1,10 +1,5 @@
 import mongoose from 'mongoose';
-
-const MONGODB_URI = process.env.MONGODB_URI as string;
-
-if (!MONGODB_URI) {
-  throw new Error('Please define the MONGODB_URI environment variable');
-}
+import APP_CONFIG from './app-config';
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 let cached = (global as any).mongoose;
@@ -18,7 +13,7 @@ async function dbConnect() {
   if (cached.conn) return cached.conn;
   if (!cached.promise) {
     cached.promise = mongoose
-      .connect(MONGODB_URI, {
+      .connect(APP_CONFIG.NEXT_PUBLIC_MONGODB_URI, {
         bufferCommands: false,
       })
       .then((mongoose) => {
