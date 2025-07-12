@@ -46,7 +46,7 @@ export const DATA = {
     'As a Mobile Developer, I focus on building mobile and web applications using React Native, SwiftUI and React. During my time as Co-Founder at Unicourse LLC, I developed user-friendly and scalable cross-platform solutions, ensuring high performance and great user experiences. I enjoy collaborating in teams and continuously improving my skills to create effective, innovative applications.',
   summary:
     'Co-Founder & Mobile Engineer at Unicourse LLC. Experienced in building cross-platform mobile/web apps with React Native, SwiftUI, ReactJS. Awarded Top 1 Rocket Boost, Excellent Student Achievement Awards. GPA 3.5/4. Passionate about scalable, high-performance solutions and great UX.',
-  avatarUrl: '/profile_img.jpg',
+  avatarUrl: '/profile.jpg',
   skills: [
     { name: 'TypeScript', icon: iconAssets.typescript },
     { name: 'ReactJS', icon: iconAssets.reactIcon },
