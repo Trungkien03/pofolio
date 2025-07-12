@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 export interface User {
   id: string | null;
   email: string;
@@ -20,7 +18,7 @@ export type AuthContextType = {
 };
 
 export const initialAuthState: AuthContextType = {
-  user: {},
+  user: null,
   isLoading: false,
   accessToken: '',
 };

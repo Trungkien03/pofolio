@@ -1,5 +1,5 @@
 import { Icons } from '@/components/icons';
-import { HomeIcon, LogInIcon, NotebookIcon } from 'lucide-react';
+import { HomeIcon } from 'lucide-react';
 
 const iconAssets = {
   java: '/java.png',
@@ -69,8 +69,7 @@ export const DATA = {
   ],
   navbar: [
     { href: '/', icon: HomeIcon, label: 'Home' },
-    { href: '/blog', icon: NotebookIcon, label: 'Blog' },
-    { href: '/sign-in', icon: LogInIcon, label: 'Sign In' },
+    // { href: '/blog', icon: NotebookIcon, label: 'Blog' },
   ],
   contact: {
     email: 'kiennt.it.work@gmail.com',

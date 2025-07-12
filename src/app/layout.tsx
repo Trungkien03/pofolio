@@ -1,5 +1,5 @@
+import ThemeProvider from '@/components/layouts/theme-toggle/theme-provider';
 import Navbar from '@/components/navbar';
-import { ThemeProvider } from '@/components/theme-provider';
 import { Toaster } from '@/components/ui/sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
 import AuthProvider from '@/context/providers/auth-provider';
@@ -62,12 +62,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body
-        className={cn(
-          'mx-auto min-h-screen max-w-3xl bg-background px-6 py-12 font-sans antialiased sm:py-24',
-          fontSans.variable,
-        )}
-      >
+      <body className={cn(fontSans.className)}>
         <ThemeProvider attribute='class' defaultTheme='light'>
           <TooltipProvider delayDuration={0}>
             <AuthProvider>
