@@ -1,4 +1,3 @@
-'use client';
 import { Dock, DockIcon } from '@/components/magicui/dock';
 import { ModeToggle } from '@/components/mode-toggle';
 import { buttonVariants } from '@/components/ui/button';
@@ -37,6 +36,7 @@ export default function Navbar() {
             </Tooltip>
           </DockIcon>
         ))}
+
         <Separator orientation='vertical' className='h-full' />
         {Object.entries(DATA.contact.social)
           // eslint-disable-next-line @typescript-eslint/no-unused-vars
