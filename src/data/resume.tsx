@@ -99,17 +99,11 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      Website: {
-        name: 'Website',
-        url: 'https://kanetech.id.vn',
-        icon: Icons.globe,
-        navbar: true,
-      },
-      email: {
+      Gmail: {
         name: 'Send Email',
         url: 'mailto:kiennt.it.work@gmail.com',
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -125,7 +119,7 @@ export const DATA = {
       start: '01/2025',
       end: 'Now',
       description:
-        'Design and develop a financial web application for Hopper SE, following the Agile Scrum methodology. Utilize modern technologies including Next.js, NestJS, and AWS to build scalable and high-performance web systems. Collaborate closely with cross-functional teams to deliver well-architected, user-centric solutions in a fast-paced environment.',
+        'Design mobile application with React Native Expo. Build website application with Next.js and NestJS. Participate in the development process following Agile methodology. Deploy products on AWS and package with Docker. Use English for daily communication.',
     },
     {
       company: 'Hopper SE',
@@ -142,7 +136,7 @@ export const DATA = {
     {
       company: 'Unicourse LLC',
       href: 'https://unicourse.vn',
-      badges: ['Rocket Boost Top 1 Award'],
+      badges: ['Full-time', 'Rocket Boost Top 1 Award'],
       location: 'Vietnam',
       title: 'Co-Founder & Mobile Developer',
       logoUrl: '/logo/logo-unicourse.png',
@@ -154,9 +148,9 @@ export const DATA = {
     {
       company: 'FPT Software',
       href: 'https://fpt.com.vn',
-      badges: [],
+      badges: ['Full-time'],
       location: 'Vietnam',
-      title: 'Frontend Developer',
+      title: 'Software Engineer',
       logoUrl: '/logo/logo-fsoft.png',
       start: '08/2022',
       end: '12/2023',
@@ -168,12 +162,20 @@ export const DATA = {
     {
       school: 'FPT University',
       href: 'https://fpt.edu.vn',
+      location: 'Vietnam',
       degree: 'Software Engineer (GPA: 3.5/4)',
       logoUrl: '/logo/logo-fpt-uni.png',
       start: '2019',
       end: '2024',
-      description:
-        'FPT University is a private university in Vietnam that provides a comprehensive education in software engineering, business, and technology. The university is known for its strong focus on practical skills and real-world applications, with a strong emphasis on technology and innovation. FPT University is one of the top universities in Vietnam and is known for its strong focus on technology and innovation.',
+      description: `
+        During my time at FPT University, I received a comprehensive education in Software Engineering with a strong emphasis on real-world applications and technology innovation. 
+  
+        I actively participated in multiple team projects, where we developed full-stack applications that solved real-life problems. These experiences sharpened my technical and collaboration skills, from ideation to deployment.
+  
+        I also completed specialized online courses from Coursera, focusing on Design Systems and Project Management, which helped me understand how to structure scalable interfaces and manage development cycles effectively.
+  
+        Additionally, I was part of a startup initiative where our team successfully launched a digital product to market, gaining hands-on experience in product development, market fit validation, and iterative design.
+      `,
     },
   ],
   projects: [
@@ -205,6 +207,7 @@ export const DATA = {
         },
       ],
       image: '/logo/logo-lucent.png',
+      imageProject: '/logo/logo-lucent.png',
       video: '',
     },
     {
@@ -239,6 +242,8 @@ export const DATA = {
         },
       ],
       image: '/logo/logo-unicourse.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Funicourse-apple-app.jpg?alt=media&token=9c896d9c-4b9b-4d07-98d4-f6f753cbc40a',
       video: '',
     },
     {
@@ -263,6 +268,8 @@ export const DATA = {
         },
       ],
       image: '/lambda-icon.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flambda-admin.jpg?alt=media&token=570174cb-f44d-451d-87cc-36fad8984741',
       video: '',
     },
     {
@@ -290,6 +297,8 @@ export const DATA = {
         },
       ],
       image: '/whale-home.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fonboard.png?alt=media&token=2940ef95-ccd9-4255-8a46-2a679950e380',
       video: '',
     },
   ],
@@ -343,7 +352,9 @@ export const DATA = {
       date: 'Mar 27, 2024',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/5ZWUFTEEWYFQ',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.19.png?alt=media&token=ce53f57a-b013-4e81-84d7-e4fc2a0379d4',
+      icon: '/logo/logo-coursera.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.19.png?alt=media&token=ce53f57a-b013-4e81-84d7-e4fc2a0379d4',
     },
     {
       title: 'Project Management Principles and Practices',
@@ -351,7 +362,9 @@ export const DATA = {
       date: 'Feb 21, 2024',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/8W48V5ERJJU6',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.40.png?alt=media&token=1f45c6d8-5211-48ec-b47e-b5bd0d305af9',
+      icon: '/logo/logo-coursera.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.40.png?alt=media&token=1f45c6d8-5211-48ec-b47e-b5bd0d305af9',
     },
     {
       title: 'Software Development Lifecycle',
@@ -359,7 +372,9 @@ export const DATA = {
       date: 'Mar 26, 2023',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/ESCFBJD794M7',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.09.png?alt=media&token=59ee1354-2e99-4b9b-b44f-250d1ddfcb66',
+      icon: '/logo/logo-coursera.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.09.png?alt=media&token=59ee1354-2e99-4b9b-b44f-250d1ddfcb66',
     },
     {
       title: 'Web Design for Everybody: Basics of Web Development & Coding',
@@ -367,7 +382,9 @@ export const DATA = {
       date: 'Nov 22, 2022',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/FVLS39XDNXC7',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.33.png?alt=media&token=c5214b49-7091-4730-8718-9a12624492b3',
+      icon: '/logo/logo-coursera.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.33.png?alt=media&token=c5214b49-7091-4730-8718-9a12624492b3',
     },
     {
       title: 'CertNexus Certified Ethical Emerging Technologist',
@@ -375,7 +392,9 @@ export const DATA = {
       date: 'Jun 22, 2023',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/JXKY2KJFRFJL',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.42.png?alt=media&token=0991cf73-56ff-41a6-9779-fe871fb77d9f',
+      icon: '/logo/logo-coursera.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.42.png?alt=media&token=0991cf73-56ff-41a6-9779-fe871fb77d9f',
     },
     {
       title: 'IBSTPI Standards',
@@ -383,7 +402,9 @@ export const DATA = {
       date: 'Sep 25, 2024',
       description: '',
       link: '',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-13%20at%2012.05.33.png?alt=media&token=2d5ec51d-fe7a-4d3a-95ed-21c2bf099be3',
+      icon: '/logo/logo-fpt-uni.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-13%20at%2012.05.33.png?alt=media&token=2d5ec51d-fe7a-4d3a-95ed-21c2bf099be3',
     },
     {
       title: 'Frontend Developer (React) Certificate',
@@ -391,7 +412,9 @@ export const DATA = {
       date: 'Jul 30, 2024',
       description: '',
       link: 'https://www.hackerrank.com/certificates/b0ae477b9a18',
-      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-14%20at%2016.17.22.png?alt=media&token=607469c5-b0de-404a-a5c1-fd53853135fb',
+      icon: '/logo/logo-fpt-uni.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-14%20at%2016.17.22.png?alt=media&token=607469c5-b0de-404a-a5c1-fd53853135fb',
     },
   ],
   references: [
