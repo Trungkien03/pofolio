@@ -33,6 +33,7 @@ const ProjectSection = () => {
                 image={project.image}
                 video={project.video}
                 links={project.links}
+                imageProject={project.imageProject}
               />
             </BlurFade>
           ))}
