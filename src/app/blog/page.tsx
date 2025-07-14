@@ -1,8 +1,8 @@
 'use client';
 
 import { ArrowLeft, ArrowRight } from 'lucide-react';
-import { useEffect, useState } from 'react';
 import Image from 'next/image';
+import { useEffect, useState } from 'react';
 
 import { Button } from '@/components/ui/button';
 import type { CarouselApi } from '@/components/ui/carousel';
@@ -88,17 +88,7 @@ const defaultCarouselOptions = {
   },
 };
 
-interface BlogList1Props {
-  title?: string;
-  items?: BlogItem[];
-}
-
-function BlogPage({
-  // Hero section - inline defaults for simple strings
-  title = 'TensorFlow Insights',
-  // Complex objects use separate constants
-  items = defaultBlogItems,
-}: BlogList1Props) {
+export default function BlogPage() {
   const [carouselApi, setCarouselApi] = useState<CarouselApi>();
   const [canScrollPrev, setCanScrollPrev] = useState(false);
   const [canScrollNext, setCanScrollNext] = useState(false);
@@ -126,7 +116,7 @@ function BlogPage({
       <div className='container'>
         <div className='mb-8 flex items-center justify-between md:flex-row md:items-end'>
           <div>
-            <h2 className='text-xl font-semibold md:text-5xl'>{title}</h2>
+            <h2 className='text-xl font-semibold md:text-5xl'>Blog</h2>
           </div>
           <div className='flex shrink-0 items-center justify-center gap-2'>
             <Button
@@ -153,7 +143,7 @@ function BlogPage({
       <div className='container overflow-hidden'>
         <Carousel setApi={setCarouselApi} opts={defaultCarouselOptions}>
           <CarouselContent>
-            {items.map((item) => (
+            {defaultBlogItems.map((item) => (
               <CarouselItem
                 key={item.id}
                 className='pl-5 md:basis-1/2 lg:basis-1/3'
@@ -196,5 +186,3 @@ function BlogPage({
     </section>
   );
 }
-
-export default BlogPage;
