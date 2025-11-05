@@ -129,7 +129,7 @@ export const DATA = {
       title: 'Full Stack Developer',
       logoUrl: '/logo/logo-hopperse.jpg',
       start: '01/2025',
-      end: 'Now',
+      end: '10/2025',
       description:
         'Design and develop a financial web application for Hopper SE, following the Agile Scrum methodology. Utilize modern technologies including Next.js, NestJS, and AWS to build scalable and high-performance web systems. Collaborate closely with cross-functional teams to deliver well-architected, user-centric solutions in a fast-paced environment.',
     },
@@ -181,7 +181,7 @@ export const DATA = {
   projects: [
     {
       title: 'Lucent – Pomodoro Timer',
-      href: 'https://github.com/Lucent-RN',
+      href: 'https://lucent-fe.netlify.app/home',
       dates: '05/2025 – Now',
       active: true,
       description:
@@ -197,7 +197,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://lucent-timer.vercel.app/',
+          href: 'https://lucent-fe.netlify.app/home',
           icon: <Icons.globe className='size-3' />,
         },
         {
@@ -207,12 +207,13 @@ export const DATA = {
         },
       ],
       image: '/logo/logo-lucent.png',
-      imageProject: '/logo/logo-lucent.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ffeature-image.png?alt=media&token=5d84fc8c-6340-43c6-bc38-4e24a8be29d3',
       video: '',
     },
     {
-      title: 'Lambda – Yoga Class Applications',
-      href: 'https://github.com/Trungkien03/Lambda.git',
+      title: 'Unicourse – University Course Applications',
+      href: 'https://unicourse.vn',
       dates: '05/2024 – 09/2024',
       active: true,
       description:
@@ -303,6 +304,13 @@ export const DATA = {
     },
   ],
   awards: [
+    {
+      title: '2nd Runner-up – You & AI Hackathon',
+      date: 'September 13, 2025',
+      icon: '/2nd-ai-hackathon.jpeg',
+      description: '',
+      location: 'You & AI Hackathon - Terralogic',
+    },
     {
       title: 'Top 1 - Rocket Boost - FPT Education',
       date: 'November 08, 2024',
