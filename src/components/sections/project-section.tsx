@@ -31,7 +31,6 @@ const ProjectSection = () => {
                 dates={project.dates}
                 tags={project.technologies}
                 image={project.image}
-                video={project.video}
                 links={project.links}
                 imageProject={project.imageProject}
               />

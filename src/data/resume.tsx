@@ -129,14 +129,14 @@ export const DATA = {
       title: 'Full Stack Developer',
       logoUrl: '/logo/logo-hopperse.jpg',
       start: '01/2025',
-      end: '10/2025',
+      end: '01/2026',
       description:
         'Design and develop a financial web application for Hopper SE, following the Agile Scrum methodology. Utilize modern technologies including Next.js, NestJS, and AWS to build scalable and high-performance web systems. Collaborate closely with cross-functional teams to deliver well-architected, user-centric solutions in a fast-paced environment.',
     },
     {
       company: 'Unicourse LLC',
       href: 'https://unicourse.vn',
-      badges: ['Full-time', 'Rocket Boost Top 1 Award'],
+      badges: ['Full-time'],
       location: 'Vietnam',
       title: 'Co-Founder & Mobile Developer',
       logoUrl: '/logo/logo-unicourse.png',
@@ -208,8 +208,41 @@ export const DATA = {
       ],
       image: '/logo/logo-lucent.png',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ffeature-image.png?alt=media&token=5d84fc8c-6340-43c6-bc38-4e24a8be29d3',
-      video: '',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flucent-app.png?alt=media&token=d063d6c8-9189-4507-86f0-76a5c678b8ac',
+    },
+    {
+      title: 'ReScope – Retrospective Management Platform',
+      href: 'https://github.com/Trungkien03/ReScope',
+      dates: '10/2024 – Now',
+      active: true,
+      description:
+        'A comprehensive retrospective management platform designed to help Agile teams conduct effective retrospectives and improve development processes. Features include AI-assisted polls, real-time collaboration, analytics dashboard, and Kanban board for continuous improvement.',
+      technologies: [
+        'Next.js 15',
+        'TypeScript',
+        'TailwindCSS',
+        'Shadcn-UI',
+        'Zustand',
+        'Socket.io',
+        'Recharts',
+        'React Hook Form',
+        'Zod',
+      ],
+      links: [
+        {
+          type: 'Github',
+          href: 'https://github.com/Trungkien03/ReScope',
+          icon: <Icons.github className='size-3' />,
+        },
+        {
+          type: 'Video',
+          href: 'https://www.youtube.com/watch?v=gWoVVuO-liQ',
+          icon: <Icons.youtube className='size-3' />,
+        },
+      ],
+      image: '/logo/logo-rescope.png',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Frescope-project-background.jpeg?alt=media&token=ea0c4671-cb05-45ee-8ecd-128510d16cc5',
     },
     {
       title: 'Unicourse – University Course Applications',
