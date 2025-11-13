@@ -1,8 +1,16 @@
-import { GlobeIcon, InboxIcon, MailIcon } from 'lucide-react';
+import {
+  AppleIcon,
+  GlobeIcon,
+  InboxIcon,
+  MailIcon,
+  Smartphone,
+} from 'lucide-react';
 
 export type IconProps = React.HTMLAttributes<SVGElement>;
 
 export const Icons = {
+  apple: (props: IconProps) => <AppleIcon {...props} />,
+  googlePlay: (props: IconProps) => <Smartphone {...props} />,
   globe: (props: IconProps) => <GlobeIcon {...props} />,
   email: (props: IconProps) => <MailIcon strokeWidth={3} {...props} />,
   inbox: (props: IconProps) => <InboxIcon {...props} />,

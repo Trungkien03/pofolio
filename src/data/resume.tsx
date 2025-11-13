@@ -34,6 +34,8 @@ const iconAssets = {
   postman: '/svg/postman-icon.svg',
   figma: '/figma-icon.png',
   git: '/git_icon.png',
+  nextjs: '/svg/nextjs-icon.svg',
+  nestjs: '/svg/nestjs-icon.svg',
 };
 
 export const DATA = {
@@ -43,14 +45,16 @@ export const DATA = {
   location: 'Vietnam',
   locationLink: 'https://www.google.com/maps/place/Vietnam',
   description:
-    'As a Mobile Developer, I focus on building mobile and web applications using React Native, SwiftUI and React. During my time as Co-Founder at Unicourse LLC, I developed user-friendly and scalable cross-platform solutions, ensuring high performance and great user experiences. I enjoy collaborating in teams and continuously improving my skills to create effective, innovative applications.',
+    'As a Fullstack Mobile Developer, I create scalable and user-centric applications using React Native, SwiftUI, Next.js, and NestJS. I focus on clean architecture, smooth performance, and great user experience, with proven experience in building cross-platform solutions and collaborating effectively in dynamic teams.',
   summary:
     'Co-Founder & Mobile Engineer at Unicourse LLC. Experienced in building cross-platform mobile/web apps with React Native, SwiftUI, ReactJS. Awarded Top 1 Rocket Boost, Excellent Student Achievement Awards. GPA 3.5/4. Passionate about scalable, high-performance solutions and great UX.',
   avatarUrl: '/profile.jpg',
   skills: [
-    { name: 'TypeScript', icon: iconAssets.typescript },
-    { name: 'ReactJS', icon: iconAssets.reactIcon },
+    { name: 'Next.js', icon: iconAssets.nextjs },
+    { name: 'NestJS', icon: iconAssets.nestjs },
     { name: 'React Native', icon: iconAssets.react_native_icon },
+    { name: 'ReactJS', icon: iconAssets.reactIcon },
+    { name: 'TypeScript', icon: iconAssets.typescript },
     { name: 'NodeJS', icon: iconAssets.nodejs },
     { name: 'Swift', icon: iconAssets.swift },
     { name: 'SwiftUI', icon: iconAssets.swift_ui },
@@ -199,6 +203,16 @@ export const DATA = {
           type: 'Website',
           href: 'https://lucent-fe.netlify.app/home',
           icon: <Icons.globe className='size-3' />,
+        },
+        {
+          type: 'iOS',
+          href: 'https://apps.apple.com/app/lucent-focus-timer/id6754592413',
+          icon: <Icons.apple className='size-3' />,
+        },
+        {
+          type: 'Android',
+          href: 'https://play.google.com/store/apps/details?id=com.kane.lucent',
+          icon: <Icons.googlePlay className='size-3' />,
         },
         {
           type: 'Github',
