@@ -201,7 +201,7 @@ export const DATA = {
       links: [
         {
           type: 'Website',
-          href: 'https://lucent-fe.netlify.app/home',
+          href: 'https://lucent-app.info',
           icon: <Icons.globe className='size-3' />,
         },
         {
