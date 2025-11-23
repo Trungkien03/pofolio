@@ -2,40 +2,67 @@ import { Icons } from '@/components/icons';
 import { HomeIcon } from 'lucide-react';
 
 const iconAssets = {
-  java: '/java.png',
-  mongodb: '/mongodb.png',
-  mysql: '/svg/mysql.svg',
-  reactHookForm: '/svg/react-hook-form.svg',
-  sql: '/svg/sql.svg',
-  sqlserver: '/svg/sqlserver.svg',
-  checkmark_dark: '/svg/checkmark-dark.svg',
-  checkmark_light: '/svg/checkmark-light.svg',
-  css: '/svg/css.svg',
-  docker: '/svg/docker.svg',
-  git_dark: '/svg/git-dark.svg',
-  git_light: '/svg/git-light.svg',
-  html: '/svg/html.svg',
-  jest: '/svg/jest.svg',
-  nodejs: '/svg/nodejs.svg',
-  prime_react: '/svg/primereact.svg',
-  react_native_icon: '/svg/react-native.svg',
-  reactIcon: '/svg/react.svg',
-  redux_toolkit: '/svg/redux-toolkit.svg',
-  tailwindcss: '/svg/tailwindcss.svg',
-  typescript: '/svg/typescript.svg',
-  webpack: '/svg/webpack.svg',
-  swift: '/svg/swift.svg',
-  swift_ui: '/svg/swiftui.svg',
-  sql_server: '/sqlserver.png',
-  jira: '/jira-icon.png',
-  firebase: '/logo-firebase.png',
-  redis: '/redis-icon.webp',
-  postgres: '/postgresql.png',
-  postman: '/svg/postman-icon.svg',
-  figma: '/figma-icon.png',
-  git: '/git_icon.png',
-  nextjs: '/svg/nextjs-icon.svg',
-  nestjs: '/svg/nestjs-icon.svg',
+  java: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fjava.png?alt=media&token=05868522-3669-4764-adb5-6e32221226de',
+  mongodb:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fmongodb.png?alt=media&token=f149507b-fecf-43ab-ab29-68c045e7b25c',
+  mysql:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fmysql.png?alt=media&token=3ce81f25-1570-40a1-b0b9-3756084ff4d6',
+  reactHookForm:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Freact-hook-form.png?alt=media&token=4968c051-fa12-48ec-a094-0be04853f319',
+  sql: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fsql.png?alt=media&token=435dfa58-37d7-4986-a44b-373daf038e77',
+  sqlserver:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fsqlserver.png?alt=media&token=b369c25b-b4ef-43bf-8390-0002fee83382',
+  checkmark_dark:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fcheckmark-dark.svg?alt=media&token=fe10bf1e-e604-4916-b89e-c0e95236e8a7',
+  checkmark_light:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fcheckmark-light.svg?alt=media&token=9a154ceb-fd20-4d20-a9df-394dd30ef796',
+  css: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fcss.svg?alt=media&token=43837e5c-0cb1-4adf-a635-fdadd27518b1',
+  docker:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fdocker.svg?alt=media&token=1526ac90-ed73-463a-a56c-bf3699c44122',
+  git_dark:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fgit-dark.svg?alt=media&token=9496ffc3-f175-4764-a383-214a54710b10',
+  git_light:
+    '/https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fgit-light.svg?alt=media&token=8a7851ce-fb5d-4b97-890d-dda0c91a2d2f',
+  html: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fhtml.svg?alt=media&token=c153da86-7193-47e6-8216-be4261c79dff',
+  jest: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fjest.svg?alt=media&token=0df56ee9-335c-4ccb-b973-89ddd129c439',
+  nodejs:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fnodejs.svg?alt=media&token=7b9c2f34-d68c-4c49-9753-155359903930',
+  prime_react:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fprimereact.svg?alt=media&token=737f0ead-8c03-4be9-a768-938d7f9c92a5',
+  react_native_icon:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Freact-native.svg?alt=media&token=8bb85020-9344-4b5a-bbe1-a4d82b4ef813',
+  reactIcon:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Freact.svg?alt=media&token=52ff1731-0d7c-4dc9-b12d-bd5702c200c4',
+  redux_toolkit:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fredux-toolkit.svg?alt=media&token=ef236876-7229-47fb-87aa-09d0d02f288f',
+  tailwindcss:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Ftailwindcss.svg?alt=media&token=ff744f1f-cfaf-441e-9715-4e5ab0c34d06',
+  typescript:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Ftypescript.svg?alt=media&token=4838853e-d84e-43e4-8da5-d8045d945088',
+  webpack:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fwebpack.svg?alt=media&token=18fd24c5-d4f6-4fc3-8429-246e4a7a735e',
+  swift:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fswift.svg?alt=media&token=a95e3e4e-dfa5-468a-bf48-2416ddb0a07e',
+  swift_ui:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fswiftui.svg?alt=media&token=6f6a86cf-b4d4-49c4-8436-f400f227a00c',
+  sql_server:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fsqlserver.png?alt=media&token=b369c25b-b4ef-43bf-8390-0002fee83382',
+  jira: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fjira-icon.png?alt=media&token=19b4b9b6-264c-4761-8f75-f585ac7a9777',
+  firebase:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-firebase.png?alt=media&token=b75323b8-3596-45cd-a9cc-69686a2567ad',
+  redis:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fredis-icon.webp?alt=media&token=e18eb970-9923-4b62-a81f-3dbdc2fa2acd',
+  postgres:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fpostgresql.png?alt=media&token=62e1e871-bc5d-42a6-94a9-84eda6007599',
+  postman:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fpostman-icon.svg?alt=media&token=bcd304ec-deac-4938-b47f-362561b75615',
+  figma:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Ffigma-icon.png?alt=media&token=b45ec485-aaa9-4600-84e4-9130a417251a',
+  git: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fgit_icon.png?alt=media&token=2c71fcb9-b28b-47d4-8cca-8cc02569a84a',
+  nextjs:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fnextjs-icon.svg?alt=media&token=787214e3-8feb-48c2-b636-b36afd04aa01',
+  nestjs:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Ftechstack-icons%2Fnestjs-icon.svg?alt=media&token=ef986dbe-7a66-4b0e-bf0a-a7029cf0e402',
 };
 
 export const DATA = {
@@ -48,7 +75,8 @@ export const DATA = {
     'As a Fullstack Mobile Developer, I create scalable and user-centric applications using React Native, SwiftUI, Next.js, and NestJS. I focus on clean architecture, smooth performance, and great user experience, with proven experience in building cross-platform solutions and collaborating effectively in dynamic teams.',
   summary:
     'Co-Founder & Mobile Engineer at Unicourse LLC. Experienced in building cross-platform mobile/web apps with React Native, SwiftUI, ReactJS. Awarded Top 1 Rocket Boost, Excellent Student Achievement Awards. GPA 3.5/4. Passionate about scalable, high-performance solutions and great UX.',
-  avatarUrl: '/profile.jpg',
+  avatarUrl:
+    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprofile_img.jpg?alt=media&token=c02a63c0-d726-4213-bfcf-f6aad34b7049',
   skills: [
     { name: 'Next.js', icon: iconAssets.nextjs },
     { name: 'NestJS', icon: iconAssets.nestjs },
@@ -119,7 +147,8 @@ export const DATA = {
       location: 'Vietnam',
       badges: ['Full-time'],
       title: 'Mobile Developer & Web Developer',
-      logoUrl: '/logo/logo-terralogic.jpeg',
+      logoUrl:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-terralogic.jpeg?alt=media&token=c2e180ee-ea10-459c-bc97-0189b68d96c1',
       start: '01/2025',
       end: 'Now',
       description:
@@ -131,7 +160,8 @@ export const DATA = {
       location: 'Vietnam',
       badges: ['Part-time'],
       title: 'Full Stack Developer',
-      logoUrl: '/logo/logo-hopperse.jpg',
+      logoUrl:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-hopperse.jpg?alt=media&token=59942c97-c0be-43a6-9aa7-fa7d47139e8f',
       start: '01/2025',
       end: '01/2026',
       description:
@@ -143,7 +173,8 @@ export const DATA = {
       badges: ['Full-time'],
       location: 'Vietnam',
       title: 'Co-Founder & Mobile Developer',
-      logoUrl: '/logo/logo-unicourse.png',
+      logoUrl:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-unicourse.png?alt=media&token=4666b815-fcec-4226-94ed-f63a329bc37b',
       start: '01/2024',
       end: '05/2025',
       description:
@@ -155,7 +186,8 @@ export const DATA = {
       badges: ['Full-time'],
       location: 'Vietnam',
       title: 'Software Engineer',
-      logoUrl: '/logo/logo-fsoft.png',
+      logoUrl:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-fsoft.png?alt=media&token=bbc44d83-c240-4e16-a87e-005e5c1961f6',
       start: '08/2022',
       end: '12/2023',
       description:
@@ -168,7 +200,8 @@ export const DATA = {
       href: 'https://fpt.edu.vn',
       location: 'Vietnam',
       degree: 'Software Engineer (GPA: 3.5/4)',
-      logoUrl: '/logo/logo-fpt-uni.png',
+      logoUrl:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-fpt-uni.png?alt=media&token=74897e8a-2da8-4296-b96b-f1afd50681cc',
       start: '2019',
       end: '2024',
       description: `
@@ -220,9 +253,10 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '/logo/logo-lucent.png',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-lucent.png?alt=media&token=478af717-300e-4acd-a03f-62e4578a7ff8',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flucent-app.png?alt=media&token=d063d6c8-9189-4507-86f0-76a5c678b8ac',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprojects%2Flucent-app-project.png?alt=media&token=182d9240-c4b8-43c7-a066-ad0c2c9b0685',
     },
     {
       title: 'ReScope – Retrospective Management Platform',
@@ -254,9 +288,10 @@ export const DATA = {
           icon: <Icons.youtube className='size-3' />,
         },
       ],
-      image: '/logo/logo-rescope.png',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-rescope.png?alt=media&token=3acfed8f-a8cd-4fb6-a61b-7d75d5be50fa',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Frescope-project-background.jpeg?alt=media&token=ea0c4671-cb05-45ee-8ecd-128510d16cc5',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprojects%2Frescope-project.jpeg?alt=media&token=71e6453a-4b56-47c7-8777-a11d45f2d0c7',
     },
     {
       title: 'Unicourse – University Course Applications',
@@ -289,7 +324,8 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '/logo/logo-unicourse.png',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-unicourse.png?alt=media&token=4666b815-fcec-4226-94ed-f63a329bc37b',
       imageProject:
         'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Funicourse-apple-app.jpg?alt=media&token=9c896d9c-4b9b-4d07-98d4-f6f753cbc40a',
       video: '',
@@ -315,10 +351,10 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '/lambda-icon.png',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-lambda-icon.png?alt=media&token=57f24547-4295-407b-b560-15d4bdd8d095',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flambda-admin.jpg?alt=media&token=570174cb-f44d-451d-87cc-36fad8984741',
-      video: '',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprojects%2Flamda-admin-project.jpg?alt=media&token=7538e03c-44ba-4f5c-9d92-cc84d902affc',
     },
     {
       title: 'Whale Home – Rental Apartment Application',
@@ -344,58 +380,58 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '/whale-home.png',
+      image:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-whale-home.png?alt=media&token=8fc9c70c-6924-466b-adc4-211a82887539',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fonboard.png?alt=media&token=2940ef95-ccd9-4255-8a46-2a679950e380',
-      video: '',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprojects%2Fwhale-home-project.png?alt=media&token=c0e6aaa3-4197-43a0-9906-b754d99b095d',
     },
   ],
   awards: [
     {
       title: '2nd Runner-up – You & AI Hackathon',
       date: 'September 13, 2025',
-      icon: '/2nd-ai-hackathon.jpeg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2F2nd-ai-hackathon.jpeg?alt=media&token=045a2d7f-7561-4b48-9c71-90dcc299839d',
       description: '',
       location: 'You & AI Hackathon - Terralogic',
     },
     {
       title: 'Top 1 - Rocket Boost - FPT Education',
       date: 'November 08, 2024',
-      icon: '/rocket-boost.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Frocket-boost.jpg?alt=media&token=ebc761ab-abbf-416c-b61b-f754db13325b',
       description: '',
       location: 'FPT University',
     },
     {
       title: 'Top 100 Excellent Students of FPT University',
       date: 'August 16, 2024',
-      icon: '/summer-2024.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Fsummer-2024.jpg?alt=media&token=0a41d2d9-01d4-4e20-b1b8-2e54a7badaab',
       description: '',
       location: 'FPT University',
     },
     {
       title: 'Best E-Learning Platform of FPT University',
       date: 'Aug 25, 2024',
-      icon: '/learning-service.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Flearning-service.jpg?alt=media&token=d65f96eb-e9f5-465c-aab9-ff1a9173e589',
       description: '',
       location: 'Rocket Boost Contest',
     },
     {
       title: 'Honorable Student Achievement Awards',
       date: '2022 - 2023 - 2024',
-      icon: '/honorable-student.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Fhonorable-student.jpg?alt=media&token=7a30de11-13f8-4306-a53a-7ded6e1f1e7c',
       description: '',
       location: 'FPT University',
     },
     {
       title: 'Excellent Student Achievement Awards',
       date: '2023 - FALL',
-      icon: '/excellent-student.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Fexcellent-student-2023.jpg?alt=media&token=36e61cea-49bf-4e89-8422-808dd8e97d52',
       description: '',
     },
     {
       title: 'Excellent Student Achievement Awards',
       date: '2022 - FALL',
-      icon: '/excellent-student-2022.jpg',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fawards%2Fexcellent-student-2022.jpg?alt=media&token=f1c6b773-16b7-4fd3-b64c-b845e8ffc89d',
       description: '',
       location: 'FPT University',
     },
@@ -407,9 +443,9 @@ export const DATA = {
       date: 'Mar 27, 2024',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/5ZWUFTEEWYFQ',
-      icon: '/logo/logo-coursera.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-coursera.png?alt=media&token=e88bea67-b36e-47b1-b029-0716c03b1545',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.19.png?alt=media&token=ce53f57a-b013-4e81-84d7-e4fc2a0379d4',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fuser-experience-research-coursera.png?alt=media&token=68ab42f8-a0a6-4edd-9261-1faea8c5d7ca',
     },
     {
       title: 'Project Management Principles and Practices',
@@ -417,9 +453,9 @@ export const DATA = {
       date: 'Feb 21, 2024',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/8W48V5ERJJU6',
-      icon: '/logo/logo-coursera.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-coursera.png?alt=media&token=e88bea67-b36e-47b1-b029-0716c03b1545',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.22.40.png?alt=media&token=1f45c6d8-5211-48ec-b47e-b5bd0d305af9',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fproject-management-coursera.png?alt=media&token=53a95c85-fde9-430d-909e-99ef26a2753d',
     },
     {
       title: 'Software Development Lifecycle',
@@ -427,9 +463,9 @@ export const DATA = {
       date: 'Mar 26, 2023',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/ESCFBJD794M7',
-      icon: '/logo/logo-coursera.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-coursera.png?alt=media&token=e88bea67-b36e-47b1-b029-0716c03b1545',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.09.png?alt=media&token=59ee1354-2e99-4b9b-b44f-250d1ddfcb66',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fsoftware-development-coursera.png?alt=media&token=6cc8c656-5813-4d72-85cc-b4b7e6479917',
     },
     {
       title: 'Web Design for Everybody: Basics of Web Development & Coding',
@@ -437,9 +473,9 @@ export const DATA = {
       date: 'Nov 22, 2022',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/FVLS39XDNXC7',
-      icon: '/logo/logo-coursera.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-coursera.png?alt=media&token=e88bea67-b36e-47b1-b029-0716c03b1545',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.33.png?alt=media&token=c5214b49-7091-4730-8718-9a12624492b3',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fweb-design-for-every-body-coursera.png?alt=media&token=9f4dcd2f-b5d0-49b0-80ae-df3fb698c06c',
     },
     {
       title: 'CertNexus Certified Ethical Emerging Technologist',
@@ -447,9 +483,9 @@ export const DATA = {
       date: 'Jun 22, 2023',
       description: '',
       link: 'https://www.coursera.org/account/accomplishments/specialization/JXKY2KJFRFJL',
-      icon: '/logo/logo-coursera.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-coursera.png?alt=media&token=e88bea67-b36e-47b1-b029-0716c03b1545',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-11%20at%2014.24.42.png?alt=media&token=0991cf73-56ff-41a6-9779-fe871fb77d9f',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fethical-emerging-coursera.png?alt=media&token=6c6d5724-4f69-4bc6-a8d6-53aa1dfd69aa',
     },
     {
       title: 'IBSTPI Standards',
@@ -457,9 +493,9 @@ export const DATA = {
       date: 'Sep 25, 2024',
       description: '',
       link: '',
-      icon: '/logo/logo-fpt-uni.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-fpt-uni.png?alt=media&token=74897e8a-2da8-4296-b96b-f1afd50681cc',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-13%20at%2012.05.33.png?alt=media&token=2d5ec51d-fe7a-4d3a-95ed-21c2bf099be3',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fibstpi-standards-fpt.png?alt=media&token=93cd2613-ba77-454a-b98a-fb6b8753da9a',
     },
     {
       title: 'Frontend Developer (React) Certificate',
@@ -467,9 +503,9 @@ export const DATA = {
       date: 'Jul 30, 2024',
       description: '',
       link: 'https://www.hackerrank.com/certificates/b0ae477b9a18',
-      icon: '/logo/logo-fpt-uni.png',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Flogos%2Flogo-fpt-uni.png?alt=media&token=74897e8a-2da8-4296-b96b-f1afd50681cc',
       imageProject:
-        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2FScreenshot%202024-12-14%20at%2016.17.22.png?alt=media&token=607469c5-b0de-404a-a5c1-fd53853135fb',
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Ffrontend-development-hackerank.png?alt=media&token=51a4e150-4ce7-4765-91fb-04a7782ecbb0',
     },
   ],
   references: [
