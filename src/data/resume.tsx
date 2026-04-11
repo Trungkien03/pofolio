@@ -99,14 +99,6 @@ export const DATA = {
     { name: 'Firebase', icon: iconAssets.firebase },
   ],
   navbar: [{ href: '/', icon: HomeIcon, label: 'Home' }],
-  /** Order of social icons on the dock (after Home). GitHub stays first. */
-  navbarSocialOrder: [
-    'GitHub',
-    'Hackerrank',
-    'Leetcode',
-    'LinkedIn',
-    'Gmail',
-  ] as const,
   contact: {
     email: 'kiennt.it.work@gmail.com',
     tel: '+84 974102437',

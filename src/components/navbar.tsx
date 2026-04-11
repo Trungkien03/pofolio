@@ -1,3 +1,5 @@
+'use client';
+
 import { Dock, DockIcon } from '@/components/magicui/dock';
 import { ModeToggle } from '@/components/mode-toggle';
 import { buttonVariants } from '@/components/ui/button';
@@ -38,10 +40,13 @@ export default function Navbar() {
         ))}
 
         <Separator orientation='vertical' className='h-full' />
-        {DATA.navbarSocialOrder.map((name) => {
-          const social =
-            DATA.contact.social[name as keyof typeof DATA.contact.social];
-          if (!social?.navbar) return null;
+        {(
+          Object.keys(DATA.contact.social) as Array<
+            keyof typeof DATA.contact.social
+          >
+        ).map((name) => {
+          const social = DATA.contact.social[name];
+          if (!social.navbar) return null;
           return (
             <DockIcon key={name}>
               <Tooltip>
@@ -59,7 +64,7 @@ export default function Navbar() {
                   </Link>
                 </TooltipTrigger>
                 <TooltipContent>
-                  <p>{name}</p>
+                  <p>{social.name}</p>
                 </TooltipContent>
               </Tooltip>
             </DockIcon>
