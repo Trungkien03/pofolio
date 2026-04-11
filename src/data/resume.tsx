@@ -72,11 +72,10 @@ export const DATA = {
   location: 'Vietnam',
   locationLink: 'https://www.google.com/maps/place/Vietnam',
   description:
-    'As a Fullstack Mobile Developer, I create scalable and user-centric applications using React Native, SwiftUI, Next.js, and NestJS. I focus on clean architecture, smooth performance, and great user experience, with proven experience in building cross-platform solutions and collaborating effectively in dynamic teams.',
+    'Mobile Engineer @ Terralogic | 2nd Runner-up @ You & AI Hackathon',
   summary:
-    'Co-Founder & Mobile Engineer at Unicourse LLC. Experienced in building cross-platform mobile/web apps with React Native, SwiftUI, ReactJS. Awarded Top 1 Rocket Boost, Excellent Student Achievement Awards. GPA 3.5/4. Passionate about scalable, high-performance solutions and great UX.',
-  avatarUrl:
-    'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fprofile_img.jpg?alt=media&token=c02a63c0-d726-4213-bfcf-f6aad34b7049',
+    'Mobile Application Engineer at Terralogic and Co-Founder of UniCourse. With a 2nd Runner-up finish at the You & AI Hackathon, I specialize in bridging cross-platform efficiency with native performance using React Native, SwiftUI, and NestJS. I distinguish my development process by leveraging AI assistants (Cursor, Claude) to accelerate delivery while maintaining rigorous standards for code quality and security. Proven track record in leading revenue-generating products and collaborating 100% in English within global Agile teams.',
+  avatarUrl: '/profile-image.jpeg',
   skills: [
     { name: 'Next.js', icon: iconAssets.nextjs },
     { name: 'NestJS', icon: iconAssets.nestjs },
@@ -99,10 +98,15 @@ export const DATA = {
     { name: 'JIRA', icon: iconAssets.jira },
     { name: 'Firebase', icon: iconAssets.firebase },
   ],
-  navbar: [
-    { href: '/', icon: HomeIcon, label: 'Home' },
-    // { href: '/blog', icon: NotebookIcon, label: 'Blog' },
-  ],
+  navbar: [{ href: '/', icon: HomeIcon, label: 'Home' }],
+  /** Order of social icons on the dock (after Home). GitHub stays first. */
+  navbarSocialOrder: [
+    'GitHub',
+    'Hackerrank',
+    'Leetcode',
+    'LinkedIn',
+    'Gmail',
+  ] as const,
   contact: {
     email: 'kiennt.it.work@gmail.com',
     tel: '+84 974102437',
@@ -261,7 +265,7 @@ export const DATA = {
     {
       title: 'ReScope – Retrospective Management Platform',
       href: 'https://github.com/Trungkien03/ReScope',
-      dates: '10/2024 – Now',
+      dates: '09/2025 – 11/2025',
       active: true,
       description:
         'A comprehensive retrospective management platform designed to help Agile teams conduct effective retrospectives and improve development processes. Features include AI-assisted polls, real-time collaboration, analytics dashboard, and Kanban board for continuous improvement.',
@@ -437,6 +441,56 @@ export const DATA = {
     },
   ],
   certifications: [
+    {
+      title: 'Google Google AI Specialization',
+      organization: 'Coursera',
+      date: 'March 29, 2026',
+      description: '',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/U4CHGRPI8HW0',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fgoogle-icon.png?alt=media&token=7d66d28c-de4a-4f7d-bd6f-9f796b8b0d7a',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fgoogle-ai.png?alt=media&token=ce37ed45-110d-433f-b4f6-d770cad97994',
+    },
+    {
+      title: 'Meta iOS Developer Specialization',
+      organization: 'Meta',
+      date: 'July 28, 2025',
+      description: '',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/XD4G8UUUBHAB',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fmeta-icon.png?alt=media&token=a98fc7fc-7085-4e96-a5b2-d6e8e4d93046',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fmeta-ios.png?alt=media&token=3be30981-5d94-4f0b-af02-4f920493f59b',
+    },
+    {
+      title: 'Meta React Specialization',
+      organization: 'Meta',
+      date: 'July 28, 2025',
+      description: '',
+      link: 'https://www.coursera.org/account/accomplishments/specialization/1V136Q7BH1GT',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fmeta-icon.png?alt=media&token=a98fc7fc-7085-4e96-a5b2-d6e8e4d93046',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fmeta-react.png?alt=media&token=8c780540-9211-4ff0-a41f-dc5047913770',
+    },
+    {
+      title: 'Node.js, Express, MongoDB & More: The Complete Bootcamp',
+      organization: 'Udemy',
+      date: 'Feb 23, 2026',
+      description: '',
+      link: 'https://www.udemy.com/certificate/UC-d29134d3-a492-4cc7-af48-5b0bbf1e303b/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fudemy-icon.webp?alt=media&token=7e036796-647f-4c18-bb57-3d6305c45f12',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fudemy-nodejs.png?alt=media&token=a06cb63c-0b31-4bdd-ad57-d9c8956c633e',
+    },
+    {
+      title: 'The Ultimate React Course 2025: React, Next.js, Redux & More',
+      organization: 'Udemy',
+      date: 'Feb 23, 2026',
+      description: '',
+      link: 'https://www.udemy.com/certificate/UC-434b49fb-ab38-4639-885c-c23a583120c5/?utm_campaign=email&utm_medium=email&utm_source=sendgrid.com',
+      icon: 'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fudemy-icon.webp?alt=media&token=7e036796-647f-4c18-bb57-3d6305c45f12',
+      imageProject:
+        'https://firebasestorage.googleapis.com/v0/b/pofolio-e89e1.firebasestorage.app/o/Images%2Fcertifications%2Fudemy-react.png?alt=media&token=94c3fa91-75b8-4d4c-9fca-31730cff8e1c',
+    },
     {
       title: 'User Experience Research and Design',
       organization: 'Coursera',

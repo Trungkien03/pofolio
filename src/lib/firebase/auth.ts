@@ -5,20 +5,34 @@ import {
   onIdTokenChanged as _onIdTokenChanged,
   signInWithPopup,
 } from 'firebase/auth';
-import { firebaseAuth } from './firebase-config';
+import { getFirebaseAuth } from './firebase-config';
 
 export function onAuthStateChanged(callback: (authUser: User | null) => void) {
-  return _onAuthStateChanged(firebaseAuth, callback);
+  const auth = getFirebaseAuth();
+  if (!auth) {
+    return () => {};
+  }
+  return _onAuthStateChanged(auth, callback);
 }
 
 export function onIdTokenChanged(callback: (user: User | null) => void) {
-  return _onIdTokenChanged(firebaseAuth, callback);
+  const auth = getFirebaseAuth();
+  if (!auth) {
+    return () => {};
+  }
+  return _onIdTokenChanged(auth, callback);
 }
 
 export async function signInWithGoogle() {
-  const provider = new GoogleAuthProvider();
+  const auth = getFirebaseAuth();
+  if (!auth) {
+    throw new Error(
+      'Firebase Auth is not configured. Check NEXT_PUBLIC_FIREBASE_* in .env.local.',
+    );
+  }
 
-  const result = await signInWithPopup(firebaseAuth, provider);
+  const provider = new GoogleAuthProvider();
+  const result = await signInWithPopup(auth, provider);
 
   if (!result || !result.user) {
     throw new Error('Google sign in failed');
@@ -27,5 +41,9 @@ export async function signInWithGoogle() {
 }
 
 export async function signOutWithGoogle() {
-  await firebaseAuth.signOut();
+  const auth = getFirebaseAuth();
+  if (!auth) {
+    return;
+  }
+  await auth.signOut();
 }

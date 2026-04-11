@@ -38,15 +38,18 @@ export default function Navbar() {
         ))}
 
         <Separator orientation='vertical' className='h-full' />
-        {Object.entries(DATA.contact.social)
-          // eslint-disable-next-line @typescript-eslint/no-unused-vars
-          .filter(([_, social]) => social.navbar)
-          .map(([name, social]) => (
+        {DATA.navbarSocialOrder.map((name) => {
+          const social =
+            DATA.contact.social[name as keyof typeof DATA.contact.social];
+          if (!social?.navbar) return null;
+          return (
             <DockIcon key={name}>
               <Tooltip>
                 <TooltipTrigger asChild>
                   <Link
                     href={social.url}
+                    target='_blank'
+                    rel='noopener noreferrer'
                     className={cn(
                       buttonVariants({ variant: 'ghost', size: 'icon' }),
                       'size-12',
@@ -60,7 +63,8 @@ export default function Navbar() {
                 </TooltipContent>
               </Tooltip>
             </DockIcon>
-          ))}
+          );
+        })}
         <Separator orientation='vertical' className='h-full py-2' />
         <DockIcon>
           <Tooltip>

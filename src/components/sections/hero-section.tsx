@@ -1,38 +1,38 @@
-"use client";
+'use client';
 
-import { DATA } from "@/data/resume";
-import { BLUR_FADE_DELAY } from "@/pages/home-page";
-import BlurFade from "../magicui/blur-fade";
-import BlurFadeText from "../magicui/blur-fade-text";
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar";
-import { useIsMobile } from "@/hooks/use-mobile";
+import { DATA } from '@/data/resume';
+import { BLUR_FADE_DELAY } from '@/pages/home-page';
+import BlurFade from '../magicui/blur-fade';
+import BlurFadeText from '../magicui/blur-fade-text';
+import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const HeroSection = () => {
   const isMobile = useIsMobile();
   return (
-    <section id="hero">
-      <div className="mx-auto w-full max-w-3xl space-y-8">
-        <div className="gap-2 flex justify-between">
-          <div className="flex-col flex flex-1 space-y-1.5">
+    <section id='hero'>
+      <div className='mx-auto w-full max-w-3xl space-y-8'>
+        <div className='flex justify-between gap-2'>
+          <div className='flex flex-1 flex-col space-y-1.5'>
             <BlurFadeText
               delay={BLUR_FADE_DELAY}
-              className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-4xl/none"
+              className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-4xl/none'
               yOffset={8}
-              text={`Hi, I'm ${DATA.name} 👋`}
+              text={`${DATA.name} - Kane`}
             />
             {!isMobile && (
               <BlurFadeText
-                className="max-w-[600px] text-sm sm:text-base md:text-md lg:text-md xl:text-md"
+                className='md:text-md lg:text-md xl:text-md max-w-[600px] text-sm sm:text-base'
                 delay={BLUR_FADE_DELAY}
                 text={DATA.description}
               />
             )}
           </div>
           <BlurFade delay={BLUR_FADE_DELAY}>
-            <Avatar className="size-24 md:size-36 lg:size-48 border">
+            <Avatar className='size-24 border md:size-36 lg:size-48'>
               <AvatarImage
                 alt={DATA.name}
-                className="object-cover rounded-full"
+                className='rounded-full object-cover'
                 src={DATA.avatarUrl}
               />
               <AvatarFallback>{DATA.initials}</AvatarFallback>
@@ -42,8 +42,8 @@ const HeroSection = () => {
 
         {isMobile && (
           <BlurFadeText
-            className={`max-w-[600px] text-sm sm:text-base md:text-md lg:text-md xl:text-md ${
-              isMobile ? "text-sm" : "text-md"
+            className={`md:text-md lg:text-md xl:text-md max-w-[600px] text-sm sm:text-base ${
+              isMobile ? 'text-sm' : 'text-md'
             }`}
             delay={BLUR_FADE_DELAY}
             text={DATA.description}
